@@ -1,0 +1,317 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		F42925DA211D54A300B193CC /* OpenGL.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = F42925D9211D54A300B193CC /* OpenGL.framework */; };
+		F42925DE211D5C7800B193CC /* libglfw.3.2.dylib in Frameworks */ = {isa = PBXBuildFile; fileRef = F42925DD211D5C7800B193CC /* libglfw.3.2.dylib */; };
+		F42925E1211D68E500B193CC /* CatMullRomSpline.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F42925DF211D68E500B193CC /* CatMullRomSpline.cpp */; };
+		F4F7906B2122B42B001329A0 /* main.cpp in Sources */ = {isa = PBXBuildFile; fileRef = F42925D1211D53DF00B193CC /* main.cpp */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		F42925CC211D53DF00B193CC /* CopyFiles */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = /usr/share/man/man1/;
+			dstSubfolderSpec = 0;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 1;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		F42925CE211D53DF00B193CC /* CatMullRomSplineRendering */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = CatMullRomSplineRendering; sourceTree = BUILT_PRODUCTS_DIR; };
+		F42925D1211D53DF00B193CC /* main.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = main.cpp; sourceTree = "<group>"; };
+		F42925D9211D54A300B193CC /* OpenGL.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGL.framework; path = System/Library/Frameworks/OpenGL.framework; sourceTree = SDKROOT; };
+		F42925DD211D5C7800B193CC /* libglfw.3.2.dylib */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.dylib"; name = libglfw.3.2.dylib; path = "../../../Users/admin/Documents/MyProjects/OpenGLSupportLibraries/glfw-3.1.2/libglfw.3.2.dylib"; sourceTree = "<group>"; };
+		F42925DF211D68E500B193CC /* CatMullRomSpline.cpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.cpp; path = CatMullRomSpline.cpp; sourceTree = "<group>"; };
+		F42925E0211D68E500B193CC /* CatMullRomSpline.hpp */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.cpp.h; path = CatMullRomSpline.hpp; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F42925CB211D53DF00B193CC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F42925DE211D5C7800B193CC /* libglfw.3.2.dylib in Frameworks */,
+				F42925DA211D54A300B193CC /* OpenGL.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		F42925C5211D53DF00B193CC = {
+			isa = PBXGroup;
+			children = (
+				F42925DF211D68E500B193CC /* CatMullRomSpline.cpp */,
+				F42925E0211D68E500B193CC /* CatMullRomSpline.hpp */,
+				F42925D0211D53DF00B193CC /* CatMullRomSplineRendering */,
+				F42925CF211D53DF00B193CC /* Products */,
+				F42925D8211D54A300B193CC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F42925CF211D53DF00B193CC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F42925CE211D53DF00B193CC /* CatMullRomSplineRendering */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F42925D0211D53DF00B193CC /* CatMullRomSplineRendering */ = {
+			isa = PBXGroup;
+			children = (
+				F42925D1211D53DF00B193CC /* main.cpp */,
+			);
+			path = CatMullRomSplineRendering;
+			sourceTree = "<group>";
+		};
+		F42925D8211D54A300B193CC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				F42925DD211D5C7800B193CC /* libglfw.3.2.dylib */,
+				F42925D9211D54A300B193CC /* OpenGL.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F42925CD211D53DF00B193CC /* CatMullRomSplineRendering */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F42925D5211D53DF00B193CC /* Build configuration list for PBXNativeTarget "CatMullRomSplineRendering" */;
+			buildPhases = (
+				F42925CA211D53DF00B193CC /* Sources */,
+				F42925CB211D53DF00B193CC /* Frameworks */,
+				F42925CC211D53DF00B193CC /* CopyFiles */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = CatMullRomSplineRendering;
+			productName = OpenGLRenderingEngine;
+			productReference = F42925CE211D53DF00B193CC /* CatMullRomSplineRendering */;
+			productType = "com.apple.product-type.tool";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F42925C6211D53DF00B193CC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = "Gaurav Sharma";
+				TargetAttributes = {
+					F42925CD211D53DF00B193CC = {
+						CreatedOnToolsVersion = 9.3;
+					};
+				};
+			};
+			buildConfigurationList = F42925C9211D53DF00B193CC /* Build configuration list for PBXProject "CatMullRomSplineRendering" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = F42925C5211D53DF00B193CC;
+			productRefGroup = F42925CF211D53DF00B193CC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F42925CD211D53DF00B193CC /* CatMullRomSplineRendering */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F42925CA211D53DF00B193CC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F4F7906B2122B42B001329A0 /* main.cpp in Sources */,
+				F42925E1211D68E500B193CC /* CatMullRomSpline.cpp in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		F42925D3211D53DF00B193CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = macosx;
+			};
+			name = Debug;
+		};
+		F42925D4211D53DF00B193CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "Mac Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				MACOSX_DEPLOYMENT_TARGET = 10.13;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = macosx;
+			};
+			name = Release;
+		};
+		F42925D6211D53DF00B193CC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6CPTC9M9;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/Users/admin/Documents/MyProjects/OpenGLSupportLibraries/glfw-3.1.2/include/GLFW",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Users/admin/Documents/MyProjects/OpenGLSupportLibraries/glew/lib,
+					"/Users/admin/Documents/MyProjects/OpenGLSupportLibraries/glfw-3.1.2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		F42925D7211D53DF00B193CC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = NM6CPTC9M9;
+				HEADER_SEARCH_PATHS = (
+					/usr/local/include,
+					"/Users/admin/Documents/MyProjects/OpenGLSupportLibraries/glfw-3.1.2/include/GLFW",
+				);
+				LIBRARY_SEARCH_PATHS = (
+					/Users/admin/Documents/MyProjects/OpenGLSupportLibraries/glew/lib,
+					"/Users/admin/Documents/MyProjects/OpenGLSupportLibraries/glfw-3.1.2",
+				);
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F42925C9211D53DF00B193CC /* Build configuration list for PBXProject "CatMullRomSplineRendering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42925D3211D53DF00B193CC /* Debug */,
+				F42925D4211D53DF00B193CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F42925D5211D53DF00B193CC /* Build configuration list for PBXNativeTarget "CatMullRomSplineRendering" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F42925D6211D53DF00B193CC /* Debug */,
+				F42925D7211D53DF00B193CC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = F42925C6211D53DF00B193CC /* Project object */;
+}
